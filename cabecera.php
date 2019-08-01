@@ -2,6 +2,7 @@
 <html>
 	<head>
 	    <title>AFIP</title>
+	    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	    <link rel="shortcut icon" href="imagenes/favicon.ico" />
 	    <meta name="description" content="website description" />
 	    <meta name="keywords" content="website keywords, website keywords" />
@@ -14,7 +15,7 @@
 	            <div id="logo">
 	                <div id="logo_text">
 	                    <h1><a href="inicio.php">A<span class="logo_colour">FIP</span></a></h1>
-	                    <h2>Administración Federal de Ingresos Públicos</h2>
+	                    <h2>AdministraciÃ³n Federal de Ingresos PÃºblicos</h2>
 	                </div>
 	                <div id="logo_img">
 	                	<img src="imagenes/afip.png" alt="AFIP"/>

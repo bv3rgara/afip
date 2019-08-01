@@ -3,7 +3,6 @@
 <style type="text/css">
 	#cssmenu {
 	  width: auto;
-	  /*border: 1px solid #67B8DE;*/
 	  background: #67B8DE;
 	}
 
@@ -13,8 +12,6 @@
 	  list-style: none;
 	  width: 100%;
 	  height: 22px;
-	  /*border-top: 1px solid #FFFFFF;
-	  border-bottom: 1px solid #FFFFFF;*/
 	  font: normal 9pt 'century gothic', arial, sans-serif;
 	  letter-spacing: 0.1em;
 	}
@@ -49,8 +46,6 @@
 	  background: #0072BC;
 	  color: #ffffff;
 	  width: 174px;
-	 /* border-left: 1px solid #ffffff;
-	  border-right: 1px solid #ffffff;*/
 	}
 
 	#cssmenu > ul li ul {
@@ -58,13 +53,10 @@
 	  padding: 1px 1px 0;
 	  list-style: none;
 	  display: none;
-	 /* background: #ffffff;*/
 	  width: 174px;
 	  position: absolute;
 	  top: 21px;
 	  left: -1px;
-	  /*border: 1px solid #67B8DE;
-	  border-top: none;*/
 	}
 
 	#cssmenu > ul li:hover ul {
@@ -82,8 +74,6 @@
 	  background: #67B8DE;
 	  padding: 4px 0;
 	  width: 174px;
-	  /*border-top: 1px solid #ffffff;
-	  border-bottom: 1px solid #ffffff;*/
 	  position: relative;
 	  z-index: 1000;
 	}
@@ -97,8 +87,6 @@
 	  width: 174px;
 	  font-size: 12px;
 	  color: #CDF63E;
-	  /*border-top: 1px solid #ffffff;
-	  border-bottom: 1px solid #ffffff;*/
 	  position: relative;
 	  z-index: 1000;
 	}
@@ -112,10 +100,6 @@
 	  left: 145px;
 	  top: -2px;
 	  padding: 1px 1px 0 1px;
-	  /*border: 1px solid #67B8DE;*/
-	  /*border-right: 1px solid #67B8DE;
-	  border-left: 1px solid #67B8DE;
-	  background: #ffffff;*/
 	  z-index: 900;
 	}
 
@@ -145,25 +129,28 @@
 <div id='cssmenu' >
 	<ul>
 		<li><a href="/afip/inicio.php"><span>INICIO</span></a></li>
-		<li><a href="#"><span>ALTA</span></a>
+		<li><a href="#"><span>CONSULTA</span></a>
 			<ul>
-				<li><a href="/afip/inicio.php">Factura</a></li>
+				<li><a href="/afip/consulta.php">Consulta</a></li>
+			</ul>
+		</li>
+		<li><a href="#"><span>COMPROBANTE</span></a>
+			<ul>
+				<li><a href="/afip/comp_informacion.php">Obtener información</a></li>
+				<li><a href="/afip/comp_ultimo_nro.php">Obtener último</a></li>
+				<li><a href="/afip/comp_cya_cae.php">Crear y asignar CAE</a></li>
+				<li><a href="/afip/comp_cya_cae_sig.php">Crear y asignar CAE al siguiente</a></li>
 			</ul>
 		</li>
 		<li><a href="#"><span>FACTURA</span></a>
 			<ul>
-				<?php
-				//if ($_SESSION['categoria'] == 'ad' || $_SESSION['categoria'] == 'op'){?>
-					<li><a href="/afip/pdf_factura.php">Imprimir</a></li>
-					<?php
-				//}?>
+				<li><a href="/afip/pdf_factura.php">Imprimir</a></li>
 			</ul>
 		</li>
 		<li>&nbsp;</li>
-		<li>&nbsp;</li>
 		<li><a href="#">SALIR</a>
 			<ul>
-				<li><a href="/afip/logout.php">Cerrar Sesion</a></li>
+				<li><a href="/afip/logout.php">Cerrar sesión</a></li>
 			</ul>
 		</li>
 	</ul>

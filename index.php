@@ -54,7 +54,7 @@
 	                	<h1><img src="imagenes/afip_trans.png" alt="AFIP"/></h1>
 					    <input type="text" value="" placeholder="Usuario" id="usuario" name="usuario" />
 					    <input type="password" value="" placeholder="Clave" id="contrasena" name="contrasena" />
-			            <button type="submit" name="login"">Acceder</button>
+			            <button type="submit" name="login">Acceder</button>
 					</div>
 				</form>
 			</body>

@@ -4,7 +4,7 @@
 			    	<script type="text/javascript">
 						copyright=new Date();
 						actualiza=copyright.getFullYear();
-						document.write("Designed by Grasshoppers | Copyright © "+ actualiza);
+						document.write("Designed by Grasshoppers | Copyright &copy; "+ actualiza);
 					</script>
 			    </h2>
 			</div>
