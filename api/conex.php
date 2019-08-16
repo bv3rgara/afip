@@ -5,6 +5,7 @@ class DB{
 	private $user;
 	private $pass;
 	private $charset;
+
 	public function __construct(){
 		$this->host = 'localhost';
 		$this->db = 'afip';
@@ -12,6 +13,7 @@ class DB{
 		$this->pass = 'admin123';
 		$this->charset = 'utf8_general_ci';
 	}
+
 	function connect (){
 		try{
 			$connection = "mysql:host".$this->host.";dbname=".$this->db;
